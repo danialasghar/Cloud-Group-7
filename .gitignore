@@ -6,8 +6,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,maven
 
 ### Java ###
-# Compiled class file
-*.class
 
 # Log file
 *.log
