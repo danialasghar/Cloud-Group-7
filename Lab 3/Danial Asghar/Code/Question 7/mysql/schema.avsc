@@ -1,0 +1,31 @@
+{
+  "connect.name": "test",
+  "fields": [
+    {
+      "default": null,
+      "name": "id",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "first",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "default": null,
+      "name": "last",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "test",
+  "type": "record"
+}
