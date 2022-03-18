@@ -2,8 +2,12 @@
   "connect.name": "test",
   "fields": [
     {
-      "default": null,
       "name": "id",
+      "type": "long"
+    },
+    {
+      "default": null,
+      "name": "name",
       "type": [
         "null",
         "string"
@@ -11,7 +15,7 @@
     },
     {
       "default": null,
-      "name": "first",
+      "name": "email",
       "type": [
         "null",
         "string"
@@ -19,11 +23,19 @@
     },
     {
       "default": null,
-      "name": "last",
+      "name": "department",
       "type": [
         "null",
         "string"
       ]
+    },
+    {
+      "name": "modified",
+      "type": {
+        "connect.name": "org.apache.kafka.connect.data.Timestamp",
+        "connect.version": 1,
+        "type": "long"
+      }
     }
   ],
   "name": "test",
